@@ -1,5 +1,5 @@
 body {
-
+    width: 100%;
     margin: 0;
     padding: 0;
     max-width: 100%;
@@ -12,24 +12,28 @@ body {
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
+    justify-items: center;
+    text-align: center;
 
 }
 
 .head {
 
-    justify-items: center;
+    margin-left: 1300px;
     gap: 40px;
 }
 
 .signin {
 
-    background-color: red;
-    border-radius: 15px;
-    width: 100px; 
+    background-color:#d0280d;
+    color: white;
+    width: 100px;
+    padding: auto;
     height: 40px;
-    /* justify-content: end; */
-    margin-left: 1300px;
-    padding-bottom: 40px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
 }
 
 .signup {
@@ -37,6 +41,11 @@ body {
     background-color: white;
     width: 100px;
     padding: auto;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -47,13 +56,48 @@ body {
 }
 .subtext {
 
-    justify-content: center;
     justify-self: center;
     align-items: center;
     margin: auto;
+    text-align: center;
 
 }
 
+.subtext div {
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.hero {
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-text {
+    text-align: center;
+    align-items: center;
+}
+
+
+.hero-text small {
+    display: block;
+    margin: auto;
+}
+
+.hero-text small {
+    text-align: center;
+}
+
+.subtext img {
+    display: block;
+    justify-self: center;
+    margin: auto;
+}
 .subtext span {
 
     align-self: center;
