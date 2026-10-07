@@ -25,7 +25,8 @@ body {
 
     background-color: red;
     border-radius: 15px;
-    width: 100px;
+    width: 100px; 
+    height: 40px;
     /* justify-content: end; */
     margin-left: 1300px;
     padding-bottom: 40px;
@@ -39,11 +40,17 @@ body {
 
 }
 
+.getd {
+
+    background-color: red;
+    width: 70px;
+}
 .subtext {
 
     justify-content: center;
     justify-self: center;
     align-items: center;
+    margin: auto;
 
 }
 
